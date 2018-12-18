@@ -24,20 +24,11 @@ public class GetAllStudent {
         req.log().all(); //logging
 
         Response resp = req.get("/list");
+        resp.prettyPrint();
         System.out.println(resp.getHeaders());
-        System.out.println(resp.getTime());
-        System.out.println(resp.statusCode());
-
-
-
-
-
-
-
-
+        System.out.println("Response  Time : " + resp.getTime());
+        System.out.println("Response Status Code : " + resp.statusCode());
 
     }
-
-
 
 }

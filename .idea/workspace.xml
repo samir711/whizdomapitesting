@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d2016e-1b01-468a-aae4-205bd7fba051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/rest.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="32" />
+          <entry key="java" value="33" />
           <entry key="txt" value="8" />
           <entry key="xml" value="5" />
         </counts>
@@ -39,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="33" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="XML" value="5" />
         </counts>
@@ -47,13 +46,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="5082" />
+          <entry key="java" value="5268" />
           <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5082" />
+          <entry key="JAVA" value="5268" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="52" />
         </counts>
@@ -83,11 +82,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="309">
+              <caret line="20" selection-start-line="16" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/java/day10/testngdemo/TestngAssertionExamples.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java" />
       </list>
     </option>
   </component>
@@ -292,6 +304,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJJavaProject\whizdomapitesting\data" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -304,29 +321,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestngAssertionExamples">
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.filehandlingdemo.FileDemo" />
+  <component name="RunManager" selected="TestNG.GetAllStudentsBetterWay.getStudents">
+    <configuration name="GetAllStudent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="whizdomapitesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.filehandlingdemo.*" />
+          <option name="PATTERN" value="day11.restassureddemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day11.restassureddemo" />
+      <option name="MAIN_CLASS_NAME" value="day11.restassureddemo.GetAllStudent" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.regexpression.TestRegex" />
+    <configuration name="GetAllStudentsBetterWay.getStudents" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="whizdomapitesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.regexpression.*" />
+          <option name="PATTERN" value="day11.restassureddemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day11.restassureddemo" />
+      <option name="MAIN_CLASS_NAME" value="day11.restassureddemo.GetAllStudentsBetterWay" />
+      <option name="METHOD_NAME" value="getStudents" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,19 +407,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestRegex" />
-      <item itemvalue="Application.FileDemo" />
       <item itemvalue="TestNG.SearchAndBuy" />
       <item itemvalue="TestNG.TestngAssertionExamples.testAssertions" />
       <item itemvalue="TestNG.TestngAssertionExamples" />
+      <item itemvalue="TestNG.GetAllStudent" />
+      <item itemvalue="TestNG.GetAllStudentsBetterWay.getStudents" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetAllStudentsBetterWay.getStudents" />
+        <item itemvalue="TestNG.GetAllStudent" />
         <item itemvalue="TestNG.TestngAssertionExamples" />
         <item itemvalue="TestNG.TestngAssertionExamples.testAssertions" />
         <item itemvalue="TestNG.SearchAndBuy" />
-        <item itemvalue="Application.FileDemo" />
-        <item itemvalue="Application.TestRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -412,15 +437,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchAndBuy - 2018.12.17 at 08h 19m 41s.xml">
-      <configuration name="SearchAndBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchAndBuy - 2018.12.17 at 08h 24m 17s.xml">
-      <configuration name="SearchAndBuy" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchAndBuy - 2018.12.17 at 08h 29m 28s.xml">
-      <configuration name="SearchAndBuy" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchAndBuy - 2018.12.17 at 08h 30m 51s.xml">
       <configuration name="SearchAndBuy" configurationId="TestNG" />
     </history-entry>
@@ -442,11 +458,21 @@
     <history-entry file="TestngAssertionExamples - 2018.12.18 at 20h 07m 19s.xml">
       <configuration name="TestngAssertionExamples" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GetAllStudent - 2018.12.18 at 20h 45m 11s.xml">
+      <configuration name="GetAllStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetAllStudent - 2018.12.18 at 20h 48m 03s.xml">
+      <configuration name="GetAllStudent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GetAllStudent - 2018.12.18 at 20h 50m 30s.xml">
+      <configuration name="GetAllStudent" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8392555" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8392555" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -454,12 +480,12 @@
       <window_info id="Favorites" order="5" sideWeight="0.1607445" side_tool="true" weight="0.20469083" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41657206" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28263336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291714" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3291714" />
@@ -686,8 +712,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="309">
+          <caret line="20" selection-start-line="16" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
