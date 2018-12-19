@@ -1,0 +1,12 @@
+{
+
+  "firstName": "Oscar",
+  "lastName": "Barclay",
+  "email": "oscar.barclay.12@abc.com",
+  "programme": "Mechanical Engineering",
+  "courses": [
+    "Machine Element Design",
+    "Engineering Analysis I",
+    "Calculus & Linear Algebra I "
+  ]
+}

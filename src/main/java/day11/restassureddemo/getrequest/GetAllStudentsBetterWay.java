@@ -1,4 +1,4 @@
-package day11.restassureddemo;
+package day11.restassureddemo.getrequest;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

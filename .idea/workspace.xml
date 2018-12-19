@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7d2016e-1b01-468a-aae4-205bd7fba051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Json/studentdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Json/updatestudentdatapatchrequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Json/updatestudentdataputrequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentPostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentUsingJSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/DeleteStudentDataDeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentDataPutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentInfoPatchRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudentsBetterWay.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,37 +33,44 @@
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="33" />
+          <entry key="java" value="47" />
+          <entry key="json" value="4" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="47" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="5268" />
-          <entry key="xml" value="52" />
+          <entry key="dummy" value="25" />
+          <entry key="java" value="6175" />
+          <entry key="json" value="36" />
+          <entry key="xml" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5268" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="52" />
+          <entry key="JAVA" value="6175" />
+          <entry key="JSON" value="36" />
+          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="XML" value="58" />
         </counts>
       </usages-collector>
     </session>
@@ -65,10 +81,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day9/filehandlingdemo/FileDemo.java">
+        <entry file="file://$PROJECT_DIR$/data/Json/updatestudentdatapatchrequest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="50">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -76,29 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="20" selection-start-line="16" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="400">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentUsingJSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,37 +111,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day8/regexpression/regex.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentDataPutRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="400">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day8/regexpression/TestRegex.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/specification/RequestSpecification.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="111">
+              <caret line="291" column="40" selection-start-line="291" selection-start-column="40" selection-end-line="291" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day10/testngdemo/SearchAndBuy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentInfoPatchRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day10/testngdemo/TestngAssertionExamples.java">
+        <entry file="file://$PROJECT_DIR$/data/Json/updatestudentdataputrequest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudentsBetterWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/DeleteStudentDataDeleteRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentPostRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,9 +233,21 @@
         <option value="$PROJECT_DIR$/src/main/java/day9/filehandlingdemo/FileDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/day10/testngdemo/SearchAndBuy.java" />
         <option value="$PROJECT_DIR$/src/main/java/day10/testngdemo/TestngAssertionExamples.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/getreeuest/GetAllStudentsBetterWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudentsBetterWay.java" />
+        <option value="$PROJECT_DIR$/data/Json/studentdata.json" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudent.java" />
+        <option value="$PROJECT_DIR$/data/Json/updatestudentdata.json" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentPostRequest.java" />
+        <option value="$PROJECT_DIR$/data/Json/updatestudentdatapatchrequest.json" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentDataPutRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentInfoPatchRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/DeleteStudentDataDeleteRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentUsingJSONObject.java" />
       </list>
     </option>
   </component>
@@ -204,10 +259,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1151" />
-    <option name="y" value="271" />
-    <option name="width" value="1452" />
-    <option name="height" value="1100" />
+    <option name="x" value="960" />
+    <option name="y" value="250" />
+    <option name="width" value="960" />
+    <option name="height" value="250" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -263,6 +318,17 @@
             <path>
               <item name="whizdomapitesting" type="b2602c69:ProjectViewProjectNode" />
               <item name="whizdomapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="whizdomapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whizdomapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="whizdomapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whizdomapitesting" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +350,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restassureddemo" type="462c0819:PsiDirectoryNode" />
+              <item name="getrequest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="whizdomapitesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whizdomapitesting" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="postputpatchrequest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="whizdomapitesting" type="b2602c69:ProjectViewProjectNode" />
@@ -294,8 +368,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,6 +380,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJJavaProject\whizdomapitesting\data\Json" />
       <recent name="D:\IntelliJJavaProject\whizdomapitesting\data" />
     </key>
   </component>
@@ -321,34 +396,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GetAllStudentsBetterWay.getStudents">
-    <configuration name="GetAllStudent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddNewStudentUsingJSONObject">
+    <configuration name="AddNewStudentUsingJSONObject" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="whizdomapitesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.restassureddemo.*" />
+          <option name="PATTERN" value="day12.restassureddemo.postputpatchrequest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11.restassureddemo" />
-      <option name="MAIN_CLASS_NAME" value="day11.restassureddemo.GetAllStudent" />
+      <option name="PACKAGE_NAME" value="day12.restassureddemo.postputpatchrequest" />
+      <option name="MAIN_CLASS_NAME" value="day12.restassureddemo.postputpatchrequest.AddNewStudentUsingJSONObject" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllStudentsBetterWay.getStudents" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteStudentDataDeleteRequest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="whizdomapitesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.restassureddemo.*" />
+          <option name="PATTERN" value="day12.restassureddemo.postputpatchrequest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day11.restassureddemo" />
-      <option name="MAIN_CLASS_NAME" value="day11.restassureddemo.GetAllStudentsBetterWay" />
-      <option name="METHOD_NAME" value="getStudents" />
+      <option name="PACKAGE_NAME" value="day12.restassureddemo.postputpatchrequest" />
+      <option name="MAIN_CLASS_NAME" value="day12.restassureddemo.postputpatchrequest.DeleteStudentDataDeleteRequest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllStudentsBetterWay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="whizdomapitesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.restassureddemo.getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day11.restassureddemo.getrequest" />
+      <option name="MAIN_CLASS_NAME" value="day11.restassureddemo.getrequest.GetAllStudentsBetterWay" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateStudentDataPutRequest.UpdateStudentInfoThroughPutRequest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="whizdomapitesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day12.restassureddemo.postputpatchrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day12.restassureddemo.postputpatchrequest" />
+      <option name="MAIN_CLASS_NAME" value="day12.restassureddemo.postputpatchrequest.UpdateStudentDataPutRequest" />
+      <option name="METHOD_NAME" value="UpdateStudentInfoThroughPutRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -356,49 +463,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchAndBuy" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateStudentInfoPatchRequest.UpdateStudentInfoThroughPatch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="whizdomapitesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.testngdemo.*" />
+          <option name="PATTERN" value="day12.restassureddemo.postputpatchrequest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day10.testngdemo" />
-      <option name="MAIN_CLASS_NAME" value="day10.testngdemo.SearchAndBuy" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestngAssertionExamples" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="whizdomapitesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.testngdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10.testngdemo" />
-      <option name="MAIN_CLASS_NAME" value="day10.testngdemo.TestngAssertionExamples" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestngAssertionExamples.testAssertions" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="whizdomapitesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.testngdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day10.testngdemo" />
-      <option name="MAIN_CLASS_NAME" value="day10.testngdemo.TestngAssertionExamples" />
-      <option name="METHOD_NAME" value="testAssertions" />
+      <option name="PACKAGE_NAME" value="day12.restassureddemo.postputpatchrequest" />
+      <option name="MAIN_CLASS_NAME" value="day12.restassureddemo.postputpatchrequest.UpdateStudentInfoPatchRequest" />
+      <option name="METHOD_NAME" value="UpdateStudentInfoThroughPatch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -407,19 +482,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchAndBuy" />
-      <item itemvalue="TestNG.TestngAssertionExamples.testAssertions" />
-      <item itemvalue="TestNG.TestngAssertionExamples" />
-      <item itemvalue="TestNG.GetAllStudent" />
-      <item itemvalue="TestNG.GetAllStudentsBetterWay.getStudents" />
+      <item itemvalue="TestNG.GetAllStudentsBetterWay" />
+      <item itemvalue="TestNG.UpdateStudentDataPutRequest.UpdateStudentInfoThroughPutRequest" />
+      <item itemvalue="TestNG.UpdateStudentInfoPatchRequest.UpdateStudentInfoThroughPatch" />
+      <item itemvalue="TestNG.DeleteStudentDataDeleteRequest" />
+      <item itemvalue="TestNG.AddNewStudentUsingJSONObject" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetAllStudentsBetterWay.getStudents" />
-        <item itemvalue="TestNG.GetAllStudent" />
-        <item itemvalue="TestNG.TestngAssertionExamples" />
-        <item itemvalue="TestNG.TestngAssertionExamples.testAssertions" />
-        <item itemvalue="TestNG.SearchAndBuy" />
+        <item itemvalue="TestNG.AddNewStudentUsingJSONObject" />
+        <item itemvalue="TestNG.GetAllStudentsBetterWay" />
+        <item itemvalue="TestNG.DeleteStudentDataDeleteRequest" />
+        <item itemvalue="TestNG.UpdateStudentInfoPatchRequest.UpdateStudentInfoThroughPatch" />
+        <item itemvalue="TestNG.UpdateStudentDataPutRequest.UpdateStudentInfoThroughPutRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -437,42 +512,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchAndBuy - 2018.12.17 at 08h 30m 51s.xml">
-      <configuration name="SearchAndBuy" configurationId="TestNG" />
+    <history-entry file="DeleteStudentDataDeleteRequest_DeleteStudentData - 2018.12.19 at 15h 35m 36s.xml">
+      <configuration name="DeleteStudentDataDeleteRequest.DeleteStudentData" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchAndBuy - 2018.12.17 at 08h 32m 54s.xml">
-      <configuration name="SearchAndBuy" configurationId="TestNG" />
+    <history-entry file="AddNewStudentPostRequest - 2018.12.19 at 15h 36m 03s.xml">
+      <configuration name="AddNewStudentPostRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestngAssertionExamples_testAssertions - 2018.12.17 at 08h 38m 17s.xml">
-      <configuration name="TestngAssertionExamples.testAssertions" configurationId="TestNG" />
+    <history-entry file="UpdateStudentDataPutRequest - 2018.12.19 at 15h 36m 31s.xml">
+      <configuration name="UpdateStudentDataPutRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestngAssertionExamples - 2018.12.17 at 08h 44m 07s.xml">
-      <configuration name="TestngAssertionExamples" configurationId="TestNG" />
+    <history-entry file="GetAllStudentsBetterWay - 2018.12.19 at 15h 37m 55s.xml">
+      <configuration name="GetAllStudentsBetterWay" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestngAssertionExamples - 2018.12.17 at 08h 45m 50s.xml">
-      <configuration name="TestngAssertionExamples" configurationId="TestNG" />
+    <history-entry file="UpdateStudentDataPutRequest_UpdateStudentInfoThroughPutRequest - 2018.12.19 at 15h 38m 37s.xml">
+      <configuration name="UpdateStudentDataPutRequest.UpdateStudentInfoThroughPutRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestngAssertionExamples - 2018.12.17 at 08h 49m 38s.xml">
-      <configuration name="TestngAssertionExamples" configurationId="TestNG" />
+    <history-entry file="UpdateStudentInfoPatchRequest_UpdateStudentInfoThroughPatch - 2018.12.19 at 15h 38m 57s.xml">
+      <configuration name="UpdateStudentInfoPatchRequest.UpdateStudentInfoThroughPatch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestngAssertionExamples - 2018.12.18 at 20h 07m 19s.xml">
-      <configuration name="TestngAssertionExamples" configurationId="TestNG" />
+    <history-entry file="UpdateStudentInfoPatchRequest_UpdateStudentInfoThroughPatch - 2018.12.19 at 15h 39m 20s.xml">
+      <configuration name="UpdateStudentInfoPatchRequest.UpdateStudentInfoThroughPatch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAllStudent - 2018.12.18 at 20h 45m 11s.xml">
-      <configuration name="GetAllStudent" configurationId="TestNG" />
+    <history-entry file="DeleteStudentDataDeleteRequest - 2018.12.19 at 15h 39m 26s.xml">
+      <configuration name="DeleteStudentDataDeleteRequest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAllStudent - 2018.12.18 at 20h 48m 03s.xml">
-      <configuration name="GetAllStudent" configurationId="TestNG" />
+    <history-entry file="GetAllStudentsBetterWay - 2018.12.19 at 15h 39m 38s.xml">
+      <configuration name="GetAllStudentsBetterWay" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GetAllStudent - 2018.12.18 at 20h 50m 30s.xml">
-      <configuration name="GetAllStudent" configurationId="TestNG" />
+    <history-entry file="AddNewStudentUsingJSONObject - 2018.12.19 at 16h 40m 30s.xml">
+      <configuration name="AddNewStudentUsingJSONObject" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8392555" visible="true" weight="0.20895523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8392555" visible="true" weight="0.21055438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -480,7 +555,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.1607445" side_tool="true" weight="0.20469083" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28263336" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42111236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,6 +754,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day8/regexpression/TestRegex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day10/testngdemo/SearchAndBuy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -696,34 +778,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day8/regexpression/TestRegex.java">
+    <entry file="file://$PROJECT_DIR$/data/Json/studentdata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="20" selection-start-line="16" selection-end-line="20" />
+        <state relative-caret-position="100">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/GetAllStudentsBetterWay.java">
+    <entry file="file://$PROJECT_DIR$/data/Json/updatestudentdatapatchrequest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="50">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Json/updatestudentdataputrequest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="291" column="40" selection-start-line="291" selection-start-column="40" selection-end-line="291" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day11/restassureddemo/getrequest/GetAllStudentsBetterWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/DeleteStudentDataDeleteRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentInfoPatchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentPostRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/UpdateStudentDataPutRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day12/restassureddemo/postputpatchrequest/AddNewStudentUsingJSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
