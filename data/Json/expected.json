@@ -1,0 +1,12 @@
+{
+  "firstName": "Todd",
+  "lastName": "Beck",
+  "id": 10,
+  "email": "Fusce.dolor.quam@commodoauctor.org",
+  "programme": "Financial Analysis",
+  "courses": [
+    "Accounting",
+     "Statistics"
+
+  ]
+}

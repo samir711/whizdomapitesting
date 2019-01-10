@@ -16,7 +16,7 @@ public class GetAllStudentsBetterWay {
         RestAssured.basePath = "/student";
 
         Response resp = given().contentType(ContentType.JSON).header("A", "B")
-        .log().all().get("/list");
+        .log().all().get("/10");
         resp.prettyPrint();
 
 
